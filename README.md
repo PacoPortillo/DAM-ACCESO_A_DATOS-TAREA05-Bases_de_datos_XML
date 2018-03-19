@@ -22,10 +22,17 @@ No hay datos disponibles.
 - - -
 ### Desarrollo:
 1. Se inicia el proyecto.
+2. Crear la Base de Datos CopiaCursillos a partir de la BD cursillos desde el entorno Java.
 
 _ _ _
 ### Procesos de trabajo:
 1. Se incia el proyecto. **Commit**
+2. Dada la Bd cursillos, crear una base de datos XML llamada copiacursillos desde el entorno JAVA (en Netbeans). Esta base de datos debes llenarla con las colecciones y documentos existentes en la base de datos Cursillos, es decir importando sus colecciones y documentos. **Commit**
+	* Añadir las librerías al proyecto.
+	* Crear las clases con el código Java.
+	* Ejecutar el programa y Crear la base de datos.
+	* Ejecutar el gestor de base de datos: **Qizx** y realizar las primeras consultas a la base de datos
+
 
 - - -
 #### Fuentes de información:
@@ -58,7 +65,7 @@ domingo, 18 de marzo de 2018 12:54
 
 - - -
 ### Fecha de la última actualización:
-
+lunes, 19 de marzo de 2018 21:24
 
 - - -
 

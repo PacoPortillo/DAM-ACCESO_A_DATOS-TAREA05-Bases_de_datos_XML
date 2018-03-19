@@ -1,0 +1,11 @@
+17:29:48.193  INFO  [LibraryManager] ---- group creation in K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml
+17:29:48.194  INFO  [LibraryManager]  100
+17:29:48.543  INFO  [LibraryManager] shutdown begins
+17:29:48.547  INFO  [LibraryManager]  closed library CopiaCursillos
+17:29:48.547  INFO  [LibraryManager] shutdown complete.
+21:03:45.895  INFO  [LibraryManager] ---- starting up ----
+21:03:45.896  INFO  [LibraryManager]  100
+21:03:46.046  INFO  [LibraryManager] Library group ready
+21:03:46.447  INFO  [LibraryManager] shutdown begins
+21:03:46.484  INFO  [LibraryManager]  closed library CopiaCursillos
+21:03:46.484  INFO  [LibraryManager] shutdown complete.

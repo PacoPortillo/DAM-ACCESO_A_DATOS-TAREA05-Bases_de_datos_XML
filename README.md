@@ -23,6 +23,7 @@ No hay datos disponibles.
 ### Desarrollo:
 1. Se inicia el proyecto.
 2. Crear la Base de Datos CopiaCursillos a partir de la BD cursillos desde el entorno Java.
+3. Realizar 4 consultas a la base de datos desde archivos .xq
 
 _ _ _
 ### Procesos de trabajo:
@@ -31,8 +32,15 @@ _ _ _
 	* Añadir las librerías al proyecto.
 	* Crear las clases con el código Java.
 	* Ejecutar el programa y Crear la base de datos.
-	* Ejecutar el gestor de base de datos: **Qizx** y realizar las primeras consultas a la base de datos
-
+	* Ejecutar el gestor de base de datos: **Qizx** y realizar las primeras consultas a la base de datos.
+3. Realizo las siguientes consultas a la BD XML CopiaCursillos y las ejecuto desde la aplicación Java. **Commit**
+Para ello implemento una nueva clase: **QueryBDxml.java**
+Cada consulta se guarda en un script .xq, que se llama desde el programa. Las consultas son:
+ * Ocupación diaria del aula 2, indicando el curso y profesor.
+ * Profesores que imparten cursos con cuotas anuales y  cuyo  precio es superior a 300 euros. Mostrar profesor, curso, y precio, ordenado por profesor.
+ * Fechas de inicio y finalización de cada curso impartido, indicando nombre del curso y fechas de impartición.
+ * Inventa una consulta sobre la BD:
+Listado de cursos: mostrar el Título del curso, nombre del profesor, su DNI, número de aula y las puestos que tiene ese aula.
 
 - - -
 #### Fuentes de información:
@@ -65,7 +73,7 @@ domingo, 18 de marzo de 2018 12:54
 
 - - -
 ### Fecha de la última actualización:
-lunes, 19 de marzo de 2018 21:24
+martes, 20 de marzo de 2018 21:32
 
 - - -
 

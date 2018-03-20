@@ -2,6 +2,7 @@ package main;
 
 import com.qizx.api.QizxException;
 import dbxml.CrearBDxml;
+import dbxml.QueryBDxml;
 import java.io.IOException;
 
 /**
@@ -15,6 +16,10 @@ public class Main {
      */
     public static void main(String[] args) throws QizxException, IOException {
         new CrearBDxml();
+        System.out.println("===================================================");
+        System.out.println("===================================================");
+        System.out.println("===================================================");
+        new QueryBDxml();
     }
 
 }

@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
 import org.xml.sax.SAXException;
+import utilidades.SOFileRuta;
 
 /**
  *
@@ -25,8 +26,10 @@ public class CrearBDxml {
     private String bdNombre = "CopiaCursillos";
     //ruta raíz colecciones de la BD o Library
     private String ruta = "/";
-    //ruta de las colecciones origen a importar
-    private String datosOrigenRoot = "../BDCursillosXML/cursillos_datos/";
+    //ruta de las colecciones origen a importar desde NetBeans:*********************************************************************
+    private String datosOrigenRoot = SOFileRuta.rutaRelativNetBeans("/../BDCursillosXML/cursillos_datos/");
+    //ruta de las colecciones origen a importar desde Consola desde el Jar:*********************************************************
+    //private String datosOrigenRoot = SOFileRuta.rutaRelativJAR("../../BDCursillosXML/cursillos_datos/");
     //array con nombres de las colecciones origen a importar
     private String[] datosOrigenNombre
             = {"Aulas", "Cursos", "Profesores"};
@@ -69,7 +72,12 @@ public class CrearBDxml {
                     //el método llenar() vincula a la base de datos bd, la coleccion
                     //localizada en 'fichero', denominada 'nombre', conteniendo los
                     //documentos según filtro
-                    llenar(bd, fichero, filtro, nombre);
+                    try {
+                        llenar(bd, fichero, filtro, nombre);
+                    } catch (Exception ex) {
+                        System.out.println("Creación de Bases de Datos. Error general: " + ex.getMessage());
+                    }
+                    
                 }
             }
             System.out.println("Confirmados cambios...");

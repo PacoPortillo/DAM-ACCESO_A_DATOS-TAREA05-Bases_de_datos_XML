@@ -15,6 +15,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import utilidades.SOFileRuta;
 
 /**
  *
@@ -22,19 +23,21 @@ import java.io.InputStreamReader;
  */
 public class QueryBDxml {
 
-    //ruta del Grupo de BD
-    private String directorioGrupoRoot = ".\\dbxml";
+    //ruta del Grupo de BD para ejecutar desde NetBeans:*********************************************************************************************
+    private String directorioGrupoRoot = SOFileRuta.rutaRelativNetBeans(SOFileRuta.formatoSO("/dbxml"));
+    //ruta del Grupo de BD para ejecutar desde el Jar en Consola: ************************************************************************************
+    //private String directorioGrupoRoot = SOFileRuta.rutaRelativJAR(SOFileRuta.formatoSO("./dbxml"));
     //Library o base de datos
     private String bdNombre = "CopiaCursillos";
-    //ruta donde se almacenan los scripts con consultas XQuery
-    private String directorioScriptsRoot = "..\\BDCursillosXML\\cursillos_query\\";
+    //ruta donde se almacenan los scripts con consultas XQuery para ejecutar en NetBeans: *************************************************************
+    private String directorioScriptsRoot = SOFileRuta.rutaRelativNetBeans(SOFileRuta.formatoSO("/../BDCursillosXML/cursillos_query/"));
+    //ruta donde se almacenan los scripts con consultas XQuery para ejecutar en consola desde el Jar: **************************************************
+    //private String directorioScriptsRoot = SOFileRuta.rutaRelativJAR(SOFileRuta.formatoSO("../../BDCursillosXML/cursillos_query/"));
     //nombres de los scripts con consultas XQuery - ficheros .xq
-    private String[] scriptNombre = {"001_Ejercico02_punto01.xq", 
+    private String[] scriptNombre = {"001_Ejercico02_punto01.xq",
         "001_Ejercico02_punto02.xq",
         "001_Ejercico02_punto03.xq",
         "001_Ejercico02_punto04.xq"};
-    
-      
 
     public QueryBDxml() throws IOException, QizxException {
         //variables para controlar el rango de resultados de la consulta que se
@@ -64,20 +67,26 @@ public class QueryBDxml {
                 //imprime la expresión de consulta XQuery
                 System.out.println("---\n" + consultaXquery + "\n---");
 
-                //compila la consulta, almacenado resultado en expr
-                Expression expr = compileExpression(bd, consultaXquery);
-                //evalúa la consulta para mostrar resultados en el rango [min, max]
-                evaluarExpression(expr, min, max);
+                try {
+                    //compila la consulta, almacenado resultado en expr
+                    Expression expr = compileExpression(bd, consultaXquery);
+                    //evalúa la consulta para mostrar resultados en el rango [min, max]
+                    evaluarExpression(expr, min, max);
+                } catch (Exception e) {
+                    System.out.println("Ejecución de Querys. Error de Compilación: " + e.getMessage());
+                }
+
             }
         } finally {
             //cierra conexión con BD
-            cerrar(bd, bdManager);
+            try {
+                cerrar(bd, bdManager);
+            } catch (Exception e) {
+                System.out.println("Ejecución de Querys. Error de Cierre: " + e.getMessage());
+            }
+
         }
     }
-    
-    
-    
-    
 
     //Método para compilar la consulta controlando errores
     private Expression compileExpression(Library bd,

@@ -1,117 +1,23 @@
-20:16:50.505  INFO  [LibraryManager] ---- group creation in K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml
-20:16:50.506  INFO  [LibraryManager]  100
-20:16:50.958  INFO  [LibraryManager] shutdown begins
-20:16:50.962  INFO  [LibraryManager]  closed library CopiaCursillos
-20:16:50.962  INFO  [LibraryManager] shutdown complete.
-20:25:28.900  INFO  [LibraryManager] ---- starting up ----
-20:25:28.901  INFO  [LibraryManager]  100
-20:25:28.987  INFO  [LibraryManager] Library group ready
-20:26:44.335  INFO  [LibraryManager] ---- starting up ----
-20:26:44.336  INFO  [LibraryManager]  100
-20:26:44.425  INFO  [LibraryManager] Library group ready
-20:27:35.935  INFO  [LibraryManager] ---- starting up ----
-20:27:35.936  INFO  [LibraryManager]  100
-20:27:36.020  INFO  [LibraryManager] Library group ready
-20:29:32.204  INFO  [LibraryManager] ---- starting up ----
-20:29:32.205  INFO  [LibraryManager]  100
-20:29:32.291  INFO  [LibraryManager] Library group ready
-20:29:32.419  INFO  [LibraryManager] shutdown begins
-20:29:32.426  INFO  [LibraryManager]  closed library CopiaCursillos
-20:29:32.426  INFO  [LibraryManager] shutdown complete.
-20:30:04.621  INFO  [LibraryManager] ---- starting up ----
-20:30:04.622  INFO  [LibraryManager]  100
-20:30:04.711  INFO  [LibraryManager] Library group ready
-20:30:05.031  INFO  [LibraryManager] shutdown begins
-20:30:05.089  INFO  [LibraryManager]  closed library CopiaCursillos
-20:30:05.089  INFO  [LibraryManager] shutdown complete.
-20:30:05.094  INFO  [LibraryManager] ---- starting up ----
-20:30:05.094  INFO  [LibraryManager]  100
-20:30:05.106  INFO  [LibraryManager] Library group ready
-20:30:05.175  INFO  [LibraryManager] shutdown begins
-20:30:05.178  INFO  [LibraryManager]  closed library CopiaCursillos
-20:30:05.178  INFO  [LibraryManager] shutdown complete.
-20:36:58.156  INFO  [LibraryManager] ---- starting up ----
-20:36:58.157  INFO  [LibraryManager]  100
-20:36:58.255  INFO  [LibraryManager] Library group ready
-20:36:58.722  INFO  [LibraryManager] shutdown begins
-20:36:58.754  INFO  [LibraryManager]  closed library CopiaCursillos
-20:36:58.754  INFO  [LibraryManager] shutdown complete.
-20:36:58.758  INFO  [LibraryManager] ---- starting up ----
-20:36:58.758  INFO  [LibraryManager]  100
-20:36:58.779  INFO  [LibraryManager] Library group ready
-20:36:58.861  INFO  [LibraryManager] shutdown begins
-20:36:58.863  INFO  [LibraryManager]  closed library CopiaCursillos
-20:36:58.863  INFO  [LibraryManager] shutdown complete.
-20:45:51.188  INFO  [LibraryManager] ---- starting up ----
-20:45:51.189  INFO  [LibraryManager]  100
-20:45:51.280  INFO  [LibraryManager] Library group ready
-20:45:51.644  INFO  [LibraryManager] shutdown begins
-20:45:51.724  INFO  [LibraryManager]  closed library CopiaCursillos
-20:45:51.724  INFO  [LibraryManager] shutdown complete.
-20:45:51.731  INFO  [LibraryManager] ---- starting up ----
-20:45:51.732  INFO  [LibraryManager]  100
-20:45:51.751  INFO  [LibraryManager] Library group ready
-20:45:51.841  INFO  [LibraryManager] shutdown begins
-20:45:51.848  INFO  [LibraryManager]  closed library CopiaCursillos
-20:45:51.848  INFO  [LibraryManager] shutdown complete.
-20:48:08.492  INFO  [LibraryManager] ---- starting up ----
-20:48:08.495  INFO  [LibraryManager]  100
-20:48:08.599  INFO  [LibraryManager] Library group ready
-20:48:08.929  INFO  [LibraryManager] shutdown begins
-20:48:08.966  INFO  [LibraryManager]  closed library CopiaCursillos
-20:48:08.966  INFO  [LibraryManager] shutdown complete.
-20:48:08.971  INFO  [LibraryManager] ---- starting up ----
-20:48:08.971  INFO  [LibraryManager]  100
-20:48:08.985  INFO  [LibraryManager] Library group ready
-20:48:09.077  INFO  [LibraryManager] shutdown begins
-20:48:09.080  INFO  [LibraryManager]  closed library CopiaCursillos
-20:48:09.080  INFO  [LibraryManager] shutdown complete.
-20:49:54.410  INFO  [LibraryManager] ---- starting up ----
-20:49:54.411  INFO  [LibraryManager]  100
-20:49:54.511  INFO  [LibraryManager] Library group ready
-20:49:54.853  INFO  [LibraryManager] shutdown begins
-20:49:54.891  INFO  [LibraryManager]  closed library CopiaCursillos
-20:49:54.891  INFO  [LibraryManager] shutdown complete.
-20:49:54.895  INFO  [LibraryManager] ---- starting up ----
-20:49:54.896  INFO  [LibraryManager]  100
-20:49:54.909  INFO  [LibraryManager] Library group ready
-20:49:55.006  INFO  [LibraryManager] shutdown begins
-20:49:55.013  INFO  [LibraryManager]  closed library CopiaCursillos
-20:49:55.013  INFO  [LibraryManager] shutdown complete.
-20:52:48.439  INFO  [LibraryManager] ---- starting up ----
-20:52:48.440  INFO  [LibraryManager]  100
-20:52:48.542  INFO  [LibraryManager] Library group ready
-20:52:48.889  INFO  [LibraryManager] shutdown begins
-20:52:48.934  INFO  [LibraryManager]  closed library CopiaCursillos
-20:52:48.934  INFO  [LibraryManager] shutdown complete.
-20:52:48.938  INFO  [LibraryManager] ---- starting up ----
-20:52:48.939  INFO  [LibraryManager]  100
-20:52:48.956  INFO  [LibraryManager] Library group ready
-20:52:49.050  INFO  [LibraryManager] shutdown begins
-20:52:49.055  INFO  [LibraryManager]  closed library CopiaCursillos
-20:52:49.055  INFO  [LibraryManager] shutdown complete.
-21:17:20.412  INFO  [LibraryManager] ---- starting up ----
-21:17:20.412  INFO  [LibraryManager]  100
-21:17:20.469  ERROR [LibraryManager] opening library CopiaCursillos: locked Library K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml\CopiaCursillos
-        com.qizx.xlib.A.C(LibDriver.java:403)
-        com.qizx.xlib.XMLLibraryEngine.openGroup(XMLLibraryEngine.java:912)
-        com.qizx.xquery.LibraryManagerImpl.open(LibraryManagerImpl.java:67)
-        com.qizx.api.Configuration.B(Configuration.java:328)
-        com.qizx.api.Configuration.openLibraryGroup(Configuration.java:264)
-        dbxml.CrearBDxml.obtenerBDManager(CrearBDxml.java:104)
-        dbxml.CrearBDxml.<init>(CrearBDxml.java:44)
-        main.Main.main(Main.java:18)
-21:17:20.469  INFO  [LibraryManager] Library group ready
-21:17:20.513  ERROR [LibraryManager] open session: locked Library K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml\CopiaCursillos
-21:18:24.336  INFO  [LibraryManager] ---- starting up ----
-21:18:24.337  INFO  [LibraryManager]  100
-21:18:24.439  INFO  [LibraryManager] Library group ready
-21:18:24.765  INFO  [LibraryManager] shutdown begins
-21:18:24.803  INFO  [LibraryManager]  closed library CopiaCursillos
-21:18:24.803  INFO  [LibraryManager] shutdown complete.
-21:18:24.807  INFO  [LibraryManager] ---- starting up ----
-21:18:24.807  INFO  [LibraryManager]  100
-21:18:24.831  INFO  [LibraryManager] Library group ready
-21:18:24.920  INFO  [LibraryManager] shutdown begins
-21:18:24.923  INFO  [LibraryManager]  closed library CopiaCursillos
-21:18:24.923  INFO  [LibraryManager] shutdown complete.
+18:44:16.658  INFO  [LibraryManager] ---- group creation in K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml
+18:44:16.659  INFO  [LibraryManager]  100
+18:44:16.997  INFO  [LibraryManager] shutdown begins
+18:44:17.001  INFO  [LibraryManager]  closed library CopiaCursillos
+18:44:17.001  INFO  [LibraryManager] shutdown complete.
+18:44:17.004  INFO  [LibraryManager] ---- starting up ----
+18:44:17.004  INFO  [LibraryManager]  100
+18:44:17.020  INFO  [LibraryManager] Library group ready
+18:44:17.108  INFO  [LibraryManager] shutdown begins
+18:44:17.111  INFO  [LibraryManager]  closed library CopiaCursillos
+18:44:17.111  INFO  [LibraryManager] shutdown complete.
+18:44:43.207  INFO  [LibraryManager] ---- starting up ----
+18:44:43.209  INFO  [LibraryManager]  100
+18:44:43.303  INFO  [LibraryManager] Library group ready
+18:44:43.634  INFO  [LibraryManager] shutdown begins
+18:44:43.680  INFO  [LibraryManager]  closed library CopiaCursillos
+18:44:43.680  INFO  [LibraryManager] shutdown complete.
+18:44:43.686  INFO  [LibraryManager] ---- starting up ----
+18:44:43.686  INFO  [LibraryManager]  100
+18:44:43.711  INFO  [LibraryManager] Library group ready
+18:44:43.826  INFO  [LibraryManager] shutdown begins
+18:44:43.830  INFO  [LibraryManager]  closed library CopiaCursillos
+18:44:43.830  INFO  [LibraryManager] shutdown complete.

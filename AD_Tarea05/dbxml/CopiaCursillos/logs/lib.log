@@ -1,0 +1,34 @@
+18:44:16.720  INFO  [lib CopiaCursillos] Qizx 4.4p2 creating new XML Library in K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml\CopiaCursillos
+18:44:16.721  INFO  [lib CopiaCursillos] create storage in K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml\CopiaCursillos\contents.qdb
+18:44:16.726  INFO  [lib CopiaCursillos] storage created
+18:44:16.876  INFO  [lib CopiaCursillos] library creation done
+18:44:16.959  INFO  [lib CopiaCursillos] commit start CopiaCursillos (session 1)
+18:44:16.981  INFO  [lib CopiaCursillos] commit 1 on CopiaCursillos (session 1)
+18:44:16.996  INFO  [lib CopiaCursillos] commit 1 done
+18:44:16.997  INFO  [lib CopiaCursillos] commit end CopiaCursillos (session 1) -> state: [ 1 ][ 1 2 ]
+18:44:16.999  INFO  [lib CopiaCursillos] All sessions closed
+18:44:16.999  INFO  [lib CopiaCursillos] Sweeper stopped
+18:44:17.000  INFO  [lib CopiaCursillos] library closed 
+18:44:17.019  INFO  [lib CopiaCursillos] Library opened by Qizx 4.4p2
+18:44:17.019  INFO  [lib CopiaCursillos]  location K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml\CopiaCursillos
+18:44:17.020  INFO  [lib CopiaCursillos]  document storage version=5, lastBId=36, BCount=36, maxA=502
+18:44:17.108  INFO  [lib CopiaCursillos] All sessions closed
+18:44:17.110  INFO  [lib CopiaCursillos] library closed 
+18:44:43.302  INFO  [lib CopiaCursillos] Library opened by Qizx 4.4p2
+18:44:43.302  INFO  [lib CopiaCursillos]  location K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml\CopiaCursillos
+18:44:43.303  INFO  [lib CopiaCursillos]  document storage version=5, lastBId=36, BCount=36, maxA=502
+18:44:43.433  INFO  [lib CopiaCursillos] commit start CopiaCursillos (session 1)
+18:44:43.530  INFO  [lib CopiaCursillos] commit 2 on CopiaCursillos (session 1)
+18:44:43.633  INFO  [lib CopiaCursillos] commit 2 done
+18:44:43.634  INFO  [lib CopiaCursillos] commit end CopiaCursillos (session 1) -> state: [ 1 2 ][ 1 2 3 ]
+18:44:43.634  INFO  [lib CopiaCursillos] All sessions closed
+18:44:43.634  INFO  [lib CopiaCursillos] sweeper deleted 12/12 docs: 8 to 19 in ms 0.71866
+18:44:43.646  INFO  [lib CopiaCursillos] try to close, but sweeper is performing CommitTask(2 D0 [] M)
+18:44:43.646  INFO  [lib CopiaCursillos] sweeper deleted 15/15 metadocs: 20 to 34
+18:44:43.667  INFO  [lib CopiaCursillos] Sweeper stopped
+18:44:43.680  INFO  [lib CopiaCursillos] library closed 
+18:44:43.710  INFO  [lib CopiaCursillos] Library opened by Qizx 4.4p2
+18:44:43.710  INFO  [lib CopiaCursillos]  location K:\Dropbox\20170620-00-DAM(02)\20170912-01-AD\20180317-00-AD05_Tarea_XML\01-pruebas_de_codigo\AD_Tarea05_BD_XML\AD_Tarea05\dbxml\CopiaCursillos
+18:44:43.710  INFO  [lib CopiaCursillos]  document storage version=5, lastBId=65, BCount=38, maxA=502
+18:44:43.826  INFO  [lib CopiaCursillos] All sessions closed
+18:44:43.828  INFO  [lib CopiaCursillos] library closed 
